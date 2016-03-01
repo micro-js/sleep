@@ -1,0 +1,16 @@
+{
+  "name": "@f/sleep",
+  "description": "Sleep for n milliseconds",
+  "repository": "git://github.com/micro-js/sleep.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@f/elapsed-time": "^1.0.0",
+    "tape": "^4.2.2"
+  }
+}
